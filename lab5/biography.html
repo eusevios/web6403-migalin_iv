@@ -1,0 +1,63 @@
+</body>
+</html>
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Биография — Flexbox Layout</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <img src="images/alk1.jpg" alt="Портрет Алкивиада" class="banner">
+    <h1>Биография Алкивиада</h1>
+  </header>
+
+  <nav class="nav">
+    <ul>
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="biography.html">Биография</a></li>
+      <li><a href="gallery.html">Галерея</a></li>
+      <li><a href="form.html">Регистрация</a></li>
+    </ul>
+  </nav>
+
+  <main id="content">
+    <h2 style="text-align:center; margin-bottom: 30px;">Жизненный путь</h2>
+    
+    <div class="bio-layout">
+        
+        <div class="bio-description">
+            <h3>Краткое описание</h3>
+            <p>
+              Алкивиад (ок. 450–404 до н.э.) — афинский аристократ, государственный деятель и полководец, чья жизнь и карьера остаются одним из самых спорных эпизодов Пелопоннесской войны.
+            </p>
+            <p>
+              Получив хорошее образование и будучи учеником Сократа, он сочетал личную харизму и политическую амбицию. Его действия — как на политической сцене Афин, так и на военном поприще — неоднократно меняли баланс сил в греческом мире.
+            </p>
+            <blockquote>«Люди, обладающие великими талантами, часто бывают безумны»</blockquote>
+        </div>
+
+        <div class="bio-timeline">
+            <h3>Этапы карьеры</h3>
+            <table>
+      <thead>
+        <tr>
+          <th>Годы / период</th>
+          <th>Событие</th>
+          <th>Комментарий</th>
+        </tr>
+      </thead>
+      <tbody id="bioTableBody">
+      </tbody>
+    </table>
+    <script src="scripts/script.js"></script>
+        </div>
+    </div>
+  </main>
+  
+  <footer>
+    © 2025 Фансайт Алкивиада
+  </footer>
+</body>
+</html>

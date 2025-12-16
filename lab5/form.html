@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Регистрация — Алкивиад</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <img src="images/alk1.jpg" alt="Алкивиад" class="banner">
+    <h1>Клуб почитателей</h1>
+  </header>
+
+  <nav class="nav">
+    <ul>
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="biography.html">Биография</a></li>
+      <li><a href="gallery.html">Галерея</a></li>
+      <li><a href="form.html">Регистрация</a></li>
+    </ul>
+  </nav>
+
+  <main id="content" class="anim-block">
+    <h2>Вступление в клуб</h2>
+    <p>Заполните форму, чтобы мы знали своих героев.</p>
+
+    <form id="regForm">
+      <div class="form-group">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" placeholder="Введите имя" required>
+        <span class="error-msg" id="nameError"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="pass">Кодовое слово:</label>
+        <input type="password" id="pass" required>
+        <span class="error-msg" id="passError"></span>
+      </div>
+
+      <div class="form-group">
+        <input type="checkbox" id="agree" required>
+        <label for="agree">Я согласен вступить в клуб</label>
+      </div>
+
+      <button type="submit" class="btn">Вступить</button>
+    </form>
+  </main>
+
+  <footer>
+    © 2025 Фансайт Алкивиада
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
